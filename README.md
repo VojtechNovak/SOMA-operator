@@ -1,7 +1,11 @@
-Requirements
+Requirements:
 
-Python $\ge$ 3.8NumPy,
+Python $\ge$ 3.8
+
+NumPy,
+
 SciPy, 
+
 Matplotlib
 
 Description
