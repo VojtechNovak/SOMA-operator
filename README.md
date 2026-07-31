@@ -1,13 +1,12 @@
-Requirements:
+# Linear Proposal Operators and Stochastic Search Geometry in SOMA and DE
 
-Python $\ge$ 3.8
+Replication code and experimental benchmark suites for the paper **"Linear Proposal Operators and Stochastic Search Geometry in SOMA and Differential Evolution"**.
 
-NumPy,
+---
 
-SciPy, 
+## Requirements & Dependencies
 
-Matplotlib
+To execute the scripts (`experiments.py`, `bbob_full_soma_benchmark_streaming.py`, etc.), ensure you have Python $\ge$ 3.8 installed alongside the following packages:
 
-Description
-
-This script executes a deterministic numerical validation across six non-convex benchmark functions, a controlled single-step algebraic confirmation, and a multi-seed stability check to prove the numerical identity of the traditional procedural SOMA loop and its linear algebraic matrix operator block formulation.
+```bash
+python -m pip install numpy pandas matplotlib scipy coco-experiment pyade qiskit-algorithms
